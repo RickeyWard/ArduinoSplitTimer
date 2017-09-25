@@ -51,9 +51,6 @@ void loop() {
       {
         system_state = STATE_ON;
         offset_lastTime = millis();
-        delay(10);
-        digitalWrite(EnablePIN, HIGH);
-        delay(10);
         digitalWrite(EnablePIN, HIGH);
       }
     break;
